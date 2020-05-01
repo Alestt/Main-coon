@@ -43,10 +43,36 @@ img {
   clip-path: inset(100%);
 }
 
+.header {
+  background-color: #151313;
+}
+
 .header__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   max-width: 1366px;
   margin: 0 auto;
   padding: 0 40px;
+  padding-top: 48px;
+  background-image: url("../img/cat-main.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.logo-header {
+  width: 100%;
+  margin-bottom: 105px;
+  text-align: center;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding-left: 40px;
 }
 
 .header__content {
@@ -54,11 +80,22 @@ img {
   line-height: 24px;
 }
 
+.header__city {
+  margin: 0;
+  color: #A07B50;
+}
+
 .header__title {
+  margin: 0;
   font-family: Yeseva One;
   font-weight: normal;
   font-size: 52px;
   line-height: 60px;
+}
+
+.header__lead {
+  margin: 0;
+  color: #A07B50;
 }
 
 .header__button {
@@ -69,5 +106,7 @@ img {
 }
 
 .social {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
