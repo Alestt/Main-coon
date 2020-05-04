@@ -94,16 +94,33 @@ img {
   margin: 0 auto;
   padding: 0 40px;
   padding-top: 48px;
-  background-image: url("../img/cat-main.png");
-  background-position: top right;
+  background-image: url("../img/cat-main-desktop.png");
+  background-position: right 0 bottom 0;
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+@media (max-width: 1024px) {
+  .header__container {
+    width: auto;
+    padding: 0 41px;
+    padding-top: 28px;
+    padding-bottom: 35px;
+    background-image: url("../img/cat-main-tablet.png");
+    background-position: right 0 bottom 0;
+  }
 }
 
 .logo-header {
   width: 100%;
   margin-bottom: 107px;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .logo-header {
+    margin-bottom: 88px;
+  }
 }
 
 .header__wrapper {
@@ -115,6 +132,15 @@ img {
   padding-left: 38px;
 }
 
+@media (max-width: 1024px) {
+  .header__wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+  }
+}
+
 .header__content {
   max-width: 447px;
   margin-bottom: 127px;
@@ -123,11 +149,25 @@ img {
   line-height: 24px;
 }
 
+@media (max-width: 1024px) {
+  .header__content {
+    max-width: 340px;
+    margin-bottom: 74px;
+    padding: 0;
+  }
+}
+
 .header__city {
   margin: 0;
   margin-bottom: 19px;
   margin-left: 2px;
   color: #a07b50;
+}
+
+@media (max-width: 1024px) {
+  .header__city {
+    margin-bottom: 20px;
+  }
 }
 
 .header__title {
@@ -139,6 +179,12 @@ img {
   line-height: 60px;
 }
 
+@media (max-width: 1024px) {
+  .header__title {
+    margin-bottom: 17px;
+  }
+}
+
 .header__lead {
   margin: 0;
   margin-bottom: 62px;
@@ -146,9 +192,15 @@ img {
   color: #a07b50;
 }
 
+@media (max-width: 1024px) {
+  .header__lead {
+    margin-bottom: 64px;
+  }
+}
+
 .header__button {
   width: 200px;
-  margin-left: 2px;
+  margin-left: 1px;
   padding: 17px 35px;
   padding-right: 42px;
   font-weight: bold;
@@ -158,6 +210,12 @@ img {
   border: 0.5px solid #a07b50;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .header__button {
+    padding-bottom: 18px;
+  }
 }
 
 .header__button:hover,
@@ -180,6 +238,14 @@ img {
   list-style: none;
 }
 
+@media (max-width: 1024px) {
+  .social {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 58px;
+  }
+}
+
 .social::before {
   content: "";
   position: absolute;
@@ -188,6 +254,12 @@ img {
   left: 8px;
   top: 268px;
   background-color: rgba(255, 255, 255, 0.61);
+}
+
+@media (max-width: 1024px) {
+  .social::before {
+    display: none;
+  }
 }
 
 .social__item {
