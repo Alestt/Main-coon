@@ -100,6 +100,12 @@ img {
   background-size: auto;
 }
 
+@media (max-width: 1286px) {
+  .header__container {
+    background-position: right -150px bottom 0;
+  }
+}
+
 @media (max-width: 1024px) {
   .header__container {
     width: auto;
