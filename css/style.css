@@ -149,33 +149,33 @@ img {
 }
 
 @media (max-width: 1024px) {
-  .crowm__icon-desktop {
+  .logo__icon--desktop {
     display: none;
   }
 }
 
-.crowm__icon-tablet {
+.logo__icon--tablet {
   display: none;
 }
 
 @media (max-width: 1024px) {
-  .crowm__icon-tablet {
+  .logo__icon--tablet {
     display: inline;
   }
 }
 
 @media (max-width: 767px) {
-  .crowm__icon-tablet {
+  .logo__icon--tablet {
     display: none;
   }
 }
 
-.crowm__icon-mobile {
+.logo__icon--mobile {
   display: none;
 }
 
 @media (max-width: 767px) {
-  .crowm__icon-mobile {
+  .logo__icon--mobile {
     display: inline;
   }
 }
