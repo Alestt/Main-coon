@@ -129,6 +129,38 @@ img {
   }
 }
 
+@media (max-width: 1024px) {
+  .crowm__icon-desktop {
+    display: none;
+  }
+}
+
+.crowm__icon-tablet {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .crowm__icon-tablet {
+    display: inline;
+  }
+}
+
+@media (max-width: 320px) {
+  .crowm__icon-tablet {
+    display: none;
+  }
+}
+
+.crowm__icon-mobile {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  .crowm__icon-mobile {
+    display: inline;
+  }
+}
+
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;
