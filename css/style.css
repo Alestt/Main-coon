@@ -117,6 +117,19 @@ img {
   }
 }
 
+@media (max-width: 767px) {
+  .header__container {
+    background-image: url("../img/cat-main-mobile.png");
+  }
+}
+
+@media (max-width: 767px) {
+  .header__container {
+    padding-top: 26px;
+    padding-bottom: 212px;
+  }
+}
+
 .logo-header {
   width: 100%;
   margin-bottom: 107px;
@@ -126,6 +139,12 @@ img {
 @media (max-width: 1024px) {
   .logo-header {
     margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-header {
+    margin-bottom: 47px;
   }
 }
 
@@ -145,7 +164,7 @@ img {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .crowm__icon-tablet {
     display: none;
   }
@@ -155,7 +174,7 @@ img {
   display: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .crowm__icon-mobile {
     display: inline;
   }
@@ -179,6 +198,13 @@ img {
   }
 }
 
+@media (max-width: 767px) {
+  .header__wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .header__content {
   max-width: 447px;
   margin-bottom: 127px;
@@ -195,6 +221,15 @@ img {
   }
 }
 
+@media (max-width: 767px) {
+  .header__content {
+    max-width: 280px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
 .header__city {
   margin: 0;
   margin-bottom: 19px;
@@ -205,6 +240,13 @@ img {
 @media (max-width: 1024px) {
   .header__city {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__city {
+    margin-bottom: 5px;
+    margin-left: 0;
   }
 }
 
@@ -223,6 +265,13 @@ img {
   }
 }
 
+@media (max-width: 767px) {
+  .header__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
 .header__lead {
   margin: 0;
   margin-bottom: 62px;
@@ -233,6 +282,14 @@ img {
 @media (max-width: 1024px) {
   .header__lead {
     margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__lead {
+    margin-bottom: 43px;
+    margin-left: -4px;
+    line-height: 20px;
   }
 }
 
@@ -253,6 +310,14 @@ img {
 @media (max-width: 1024px) {
   .header__button {
     padding-bottom: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__button {
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 
@@ -281,6 +346,12 @@ img {
     flex-direction: row;
     justify-content: space-between;
     width: 58px;
+  }
+}
+
+@media (max-width: 767px) {
+  .social {
+    display: none;
   }
 }
 
